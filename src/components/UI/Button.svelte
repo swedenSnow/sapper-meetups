@@ -84,6 +84,12 @@
     .outline.success:active {
         background: #c2ffd1;
     }
+    @media (max-width: 459px) {
+        button,
+        a {
+            margin: 0;
+        }
+    }
 </style>
 
 {#if href}

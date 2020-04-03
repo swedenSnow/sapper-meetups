@@ -1,8 +1,14 @@
 <style>
+    .loadspinner-container {
+        width: 4.6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .loadingspinner {
         pointer-events: none;
-        width: 1.5em;
-        height: 1.5em;
+        width: 2em;
+        height: 2em;
         border: 0.4em solid transparent;
         border-color: #36464e;
         border-top-color: #ff3e00;
@@ -17,4 +23,6 @@
     }
 </style>
 
-<div class="loadingspinner" />
+<div class="loadspinner-container">
+    <div class="loadingspinner" />
+</div>

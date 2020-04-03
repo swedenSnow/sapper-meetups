@@ -145,11 +145,16 @@
         display: flex;
         justify-content: space-between;
         margin: 1rem;
+        padding-top: 0.5rem;
     }
 
     #no-meetups {
         margin: 1rem;
         color: #fff;
+    }
+
+    .meetups-container {
+        display: flex;
     }
 
     @media (min-width: 768px) {
@@ -179,7 +184,10 @@
     {/if}
     <section id="meetups">
         {#each filteredMeetups as meetup (meetup.id)}
-            <div transition:scale animate:flip={{ duration: 300 }}>
+            <div
+                class="meetups-container"
+                transition:scale
+                animate:flip={{ duration: 300 }}>
                 <MeetupItem
                     id={meetup.id}
                     title={meetup.title}

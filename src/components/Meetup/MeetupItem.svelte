@@ -50,12 +50,22 @@
         border-radius: 5px;
         background: white;
         margin: 1rem;
+        display: flex;
+        flex-flow: column wrap;
     }
 
     header,
     .content,
     footer {
         padding: 1rem;
+    }
+    @media (max-width: 400px) {
+        header,
+        .content,
+        footer {
+            padding: 1rem 8px;
+            margin: 0 auto;
+        }
     }
     .footer--item {
         display: flex;
@@ -97,7 +107,7 @@
     }
 
     p {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         margin: 0;
     }
 
@@ -106,7 +116,7 @@
     }
 
     .content {
-        height: 4rem;
+        flex: 1;
     }
 </style>
 
