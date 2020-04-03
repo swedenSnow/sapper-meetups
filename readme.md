@@ -5,7 +5,6 @@
     -   [npm run dev](#npm-run-dev)
     -   [npm run build](#npm-run-build)
     -   [npm run start](#npm-run-start)
-    -   [npm run build](#npm-run-build)
 
 ## Requires
 
