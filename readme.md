@@ -1,6 +1,7 @@
 # Svelte with Sapper
 
-## Available Scripts
+## Scripts
+- Available
     -   [npm run dev](#npm-run-dev)
     -   [npm run build](#npm-run-build)
     -   [npm run start](#npm-run-start)
@@ -11,7 +12,7 @@
 -   [Node](https://nodejs.org/en/download)
 -   [npm](https://www.npmjs.com/)
 
-### Installation
+## Installation
 
 ```bash
 $ npm i
